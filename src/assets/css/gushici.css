@@ -1,0 +1,33 @@
+.text-c {
+    text-align: center;
+}
+
+.g_main {
+    /*margin-right: -0.4%;*/
+    /*margin-left: -2.5%;*/
+    text-align: left;
+}
+
+.g_main li {
+    margin-bottom: 1.5%;
+    clear: left;
+    list-style-type: none;
+}
+
+.g_main li span {
+    display: inline-block;
+    width: 40px;
+    font-size: 15px;
+    text-align: center;
+    list-style-type: none;
+}
+
+.g_main li span .s_b {
+    font-family: "楷体";
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.g_main li span .s_t {
+    font-size: 0.8em;
+}

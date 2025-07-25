@@ -1,0 +1,19 @@
+version: "2.0"
+
+services:
+  gushici:
+    image: 'your-company.harbor.com/admin-system/gushici:0.0.1'
+    restart: always
+    container_name: gushici
+    ports:
+      - "80:80"
+    mem_limit: 2048M
+    logging:
+      options:
+        max-size: 100m
+    networks:
+      - devops
+networks:
+  devops:
+    external:
+      name: devops01

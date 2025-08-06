@@ -2280,7 +2280,7 @@
         </span>
         <span>
           <div class="s_t">tài</div>
-          <div class="s_b">太</div>
+          <div class="s_b">泰</div>
         </span>
         <nobr>
           <span>
@@ -7532,7 +7532,8 @@
     </ul>
   </div>
 </template>
-<script setup></script>
+<script setup>
+</script>
 <style>
 @import '@/assets/css/gushici.css';
 </style>
